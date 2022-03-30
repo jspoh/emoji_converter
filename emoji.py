@@ -15,4 +15,5 @@ while running:
     msg = input("Input message: ").split()
     for i in msg:
         emoji_msg += emoji_list.get(i, i) + " "
-        print(emoji_msg)
+    print(emoji_msg)
+    emoji_msg = ""
